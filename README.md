@@ -1,3 +1,4 @@
+![CI](https://github.com/MaritoUtp/api-inventario/actions/workflows/ci.yml/badge.svg)
 # API de Inventario
 
 API REST para gestionar productos, hecha con Python y FastAPI.
