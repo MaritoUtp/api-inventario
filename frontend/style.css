@@ -1,0 +1,75 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  color: #222;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 { margin-bottom: 1rem; }
+
+form {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: .6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#buscar {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: .6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover { opacity: .9; }
+button.eliminar { background: #dc2626; }
+button.editar { background: #f59e0b; }
+#btn-cancelar { background: #6b7280; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: .7rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th { background: #e5e7eb; }
+
+td button { margin-right: .3rem; padding: .35rem .7rem; font-size: .9rem; }
+
+#mensaje {
+  padding: .7rem 1rem;
+  border-radius: 6px;
+}
+#mensaje.ok { background: #dcfce7; color: #166534; }
+#mensaje.error { background: #fee2e2; color: #991b1b; }

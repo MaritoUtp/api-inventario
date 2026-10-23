@@ -3,6 +3,15 @@ from pydantic import BaseModel, Field
 
 app = FastAPI(title="API de Inventario")
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 class ProductoIn(BaseModel):
     nombre: str = Field(min_length=1)

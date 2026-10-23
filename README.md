@@ -32,3 +32,8 @@ pytest
 
 ## Tecnologías
 Python, FastAPI, Pydantic, Uvicorn, Pytest
+
+
+## Interfaz web
+Abre `frontend/index.html` con Live Server (con la API encendida).
+Permite agregar, editar, buscar y eliminar productos.
