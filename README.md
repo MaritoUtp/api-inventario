@@ -1,4 +1,4 @@
-![CI](https://github.com/MaritoUtp/api-inventario/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/MaritoUtp/api-inventario/actions/workflows/ci.yml/badge.svg)](https://github.com/MaritoUtp/api-inventario/actions)
 # API de Inventario
 
 API REST para gestionar productos, hecha con Python y FastAPI.
